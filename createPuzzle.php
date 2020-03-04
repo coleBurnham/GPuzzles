@@ -1,10 +1,24 @@
+<html>  
+<head></head>  
+<title>Static Dropdown List</title>  
+<body bgcolor="White">  
+Employee List :  
+<select>  
+  <option value="Select">Select</option>}  
+  <option value="BOOK">Books name</option>    
+</select>   
+</body>  
+<html>  
+
+
+
 <?php $page_title = 'Puzzles > Create Puzzle'; ?>
 <?php 
     require 'bin/functions.php';
     require 'db_configuration.php';
     include('header.php'); 
     $page="puzzles_list.php";   
-    verifyLogin($page); 
+   // verifyLogin($page); 
 
 ?>
 <?php 
